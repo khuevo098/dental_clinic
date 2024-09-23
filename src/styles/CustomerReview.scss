@@ -1,0 +1,30 @@
+@import './global.scss';
+.customer {
+    padding-top: 3rem;
+    
+    .table-customer {
+        table{
+            width: 75%;
+        }
+        padding: auto;
+        td, th{
+            //border: 1px solid #ddd;
+            padding: 11px;
+        }
+        tr:nth-child(even){background-color: #f2f2f2;}
+        tr:hover {background-color: #ddd;}
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            
+            color: white;
+          }
+        thead {
+            background-color: $heading-color;
+            color: #f2f2f2;
+        }
+        
+        
+    }
+}

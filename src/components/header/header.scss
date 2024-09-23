@@ -1,0 +1,117 @@
+@import "../../styles/global.scss";
+
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    z-index: 999999;
+    /* position: fixed; */
+    background-color: $secondary-color;
+    .logo {
+        width: 60px;
+        transform: translateY(1%);
+        .ellipse {
+            height: 80px;
+            left: 0;
+            object-fit: cover;
+            top: 0;
+            width: 60px;
+            border-radius: 100px;
+        }
+    }
+    .text-wrapper {
+        color: var(--heading-color);
+        font-family: "Long Cang-Regular", Helvetica;
+        font-size: 46px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        line-height: normal;
+        text-align: center;
+        text-shadow: 2px 1px 2px #e9f0f9;
+        white-space: nowrap;
+        transform: translateX(1rem);
+        transform: translateY(1rem);
+      }
+}
+
+  
+  .menu {
+    margin-bottom: 0;
+}
+
+.nav__item {
+    position: relative;
+    a {
+        text-decoration: none;
+        color: $heading-color;
+        font-weight: 500;
+        font-size: 1.1rem;
+        &:hover {
+            color: inherit;
+        } 
+        
+    }
+    .active__link {
+        color: $primary-color;
+    }
+}
+
+
+   
+
+
+.mobile__menu {
+    font-size: 1.3rem;
+    color: $primary-color;
+    display: none;
+}
+  .sticky__header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    position: sticky;
+    top: 0; 
+    left: 0;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    z-index: 9999999;
+    //border-bottom: 1px solid var(0000);
+}
+
+/* ================= */
+
+
+@media only screen and (max-width: 768px)  {
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#ceeee283, #97eac283);
+        z-index: 222222;
+        display: none;
+    }
+
+    .active__menu {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        z-index: 333333;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .mobile__menu {
+        display: block;
+    }
+
+}
+
+
+

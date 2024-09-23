@@ -1,0 +1,62 @@
+@import "global.scss";
+
+.detail {
+    label {
+        padding-left: 0rem;
+        width: 10rem;
+    }
+    input {
+        border: none;
+        outline: none;
+        background-color: #e2dcdc5e;
+    }
+}
+.form{
+    &-doctorname {
+        padding-bottom: 2rem;
+    }
+    .group-form{
+        padding-bottom: 1rem;
+        input {
+            width: 70%;
+        }
+       
+    }
+}
+.table{
+    max-height: 2500px;
+    overflow: scroll;
+    display: flex;
+    padding-bottom: 1rem;
+    .input-pair {
+        padding-bottom: 2rem;
+        label {
+            padding-left: 2rem;
+            
+        }
+        input {
+            width: 20%;
+            margin-right: 5rem;
+        }
+    }
+}
+
+.add {
+    border: none;
+    background-color: none;
+    color: $primary-color;
+}
+.text-wrapper {
+    padding-left: 2rem;
+    color: #0f97ff;
+    font-family: "Istok Web-Italic", Helvetica;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    //margin-top: -1px;
+    //position: relative;
+    //width: 101px;
+  }

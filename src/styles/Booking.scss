@@ -1,0 +1,32 @@
+
+@import './variables.scss';
+@import './global.scss';
+
+.section_doctor {
+    //padding: -20px 0;
+    .search-bar{
+        padding: 30px 100px;
+        input{
+            width: 200%;
+            height: 100%;
+            border-radius: 1.5rem;
+            padding: 10px 20px;
+            border-color: #0363F2;
+        }
+    }
+    .doctor_list{
+        padding: 80px;
+        transform: translateY(5%);
+        align-items: center;
+    }
+}
+.section_query {
+    padding-top: 20%;
+    .row {
+        padding-bottom: 10%; 
+        
+    }
+}
+.warning {
+    color: #FD4B13;
+}

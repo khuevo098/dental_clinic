@@ -1,0 +1,112 @@
+@import "./global.scss";
+.search-bar{
+    height: 100px;
+    &-input {
+        height: 3rem;
+        width: 75%;
+        border: none;
+        box-shadow: 3px 5px 3px #dcd4d4;
+        border-radius: 5px;
+        display: inline-flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        .icon-search{
+            width: 24px;
+            height: 24px;
+            padding: auto;
+            
+        }
+        input{
+            padding: 0% 0% 0% 3%;
+            width: 100%;
+            border: none;
+        }
+    }
+    .btn-add {
+        margin-left: 10%;
+    }
+}
+.wrapper {
+    position: fixed;//relative;
+    transform: translateX(14rem);
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    .add-employee{
+        width: 100%;
+        
+        display: grid;
+        justify-content: center;
+        gap:10px;
+        .form-group{
+            display: inline-flex;
+            align-items: flex-start;
+            gap: 13px;
+            position: relative;
+            right: 0;
+            
+            
+        }
+        label {
+            width: 5rem;
+            height: auto;
+        }
+        input {
+            border: none;
+            background-color: #e2dcdc5e;
+        }
+        select {
+            border: none;
+            background-color: #e2dcdc5e;
+            width: auto;
+        }
+        .btn-add-new {
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            height: 2rem;
+        }
+        .btn-exit{
+            height: auto;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            height: 2rem;
+        }
+    }
+}
+.table-employee {
+    display: flex;
+    table{
+        width: 100%;
+    }
+    td, th{
+        //border: 1px solid #ddd;
+        padding: 11px;
+    }
+    tr:nth-child(even){background-color: #f2f2f2;}
+    tr:hover {background-color: #ddd;}
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        
+        color: white;
+      }
+    thead {
+        background-color: $heading-color;
+        color: #f2f2f2;
+    }
+    .icon{
+        &-fix {
+            color: $primary-color;
+        }
+        &-delete {
+            color: #a29494;
+        }
+    }
+    
+}

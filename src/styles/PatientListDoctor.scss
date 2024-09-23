@@ -1,0 +1,59 @@
+@import "./global.scss";
+.search-bar{
+    height: 100px;
+    
+    &-input {
+        height: 3rem;
+        width: 75%;
+        border: none;
+        box-shadow: 3px 5px 3px #dcd4d4;
+        border-radius: 5px;
+        display: inline-flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        .icon-search{
+            width: 24px;
+            height: 24px;
+            padding: auto;
+            
+        }
+        input{
+            padding: 0% 0% 0% 3%;
+            width: 100%;
+            border: none;
+        }
+    }
+}
+
+.table-patients {
+    table{
+        width: 80%;
+    }
+    td, th{
+        //border: 1px solid #ddd;
+        padding: 11px;
+    }
+    tr:nth-child(even){background-color: #f2f2f2;}
+    tr:hover {background-color: #ddd;}
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        color: white;
+      }
+    thead {
+        background-color: $heading-color;
+        color: #f2f2f2;
+        
+    }
+    .icon{
+        &-fix {
+            color: $primary-color;
+        }
+        &-delete {
+            color: #a29494;
+        }
+    }
+    
+}

@@ -1,0 +1,48 @@
+@import './global.scss';
+.hoadon{
+    text-align: center;
+    padding-top: 1rem;
+}
+.detail {
+    padding-bottom: 2rem;
+    label {
+        padding-left: 2rem;
+        width: 10rem;
+    }
+    input {
+        border: none;
+        outline: none;
+        background-color: #e2dcdc5e;
+    }
+}
+.form{
+    .group-form{
+        padding-bottom: 2rem;
+        input {
+            width: 12rem;
+        }
+       
+    }
+}
+.table{
+    max-height: 300px !important;
+    overflow: scroll;
+    display: flex;
+    padding-bottom: 1rem;
+
+    .input-pair {
+        padding-bottom: 2rem;
+        input{
+            width: 8rem;
+            height: 1.5rem;
+            background-color: #e2dcdc5e;
+        }
+        label{
+            width: 8rem;
+        }
+    }
+
+}
+.back{
+    width: 16rem;
+}

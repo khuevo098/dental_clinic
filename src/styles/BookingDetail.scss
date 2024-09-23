@@ -1,0 +1,48 @@
+@import './global.scss';
+
+.booking-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    h1{
+        text-align: center;
+        font-size: 1.75rem;
+    }
+    .form {
+        &-group{
+            width: 100%;
+            display:grid;
+            padding: 3% 0 1% 0;
+            border-bottom: 1px solid;
+            input {
+                outline: none;
+                border: none;
+
+                align-items: center;
+                padding: 0px 0px 0px 4%;
+                //border-style: hidden;
+            }
+            select {
+                border-style: hidden;
+                padding: 0px 0px 0px 4%;
+            }
+            &-time {
+                display: inline-flex;
+                justify-content: space-between;
+                justify-items: flex-start;
+            }
+            h6 {
+                padding: 0px 0px 0px 4%;
+                transform: translateY(4px);
+            }
+        }
+        &-btn{
+            margin-top: 3rem;
+            justify-items: center;
+            align-items: center;
+            width: 100%;
+        }
+    }
+    
+}

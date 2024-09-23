@@ -1,0 +1,32 @@
+@import './global.scss';
+.login__section {
+    .container {
+        height: 500px;
+    }
+    .login_form {
+        position: relative;
+
+        transform: translateY(50%) ;
+       form {
+        width: 23rem;
+       }
+    }
+    .error{
+        color: red;
+        display: inline;
+    }
+}
+.btn-login{
+    width: 100%;
+    background-color: $primary-color !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 0.5rem 1.5rem !important;
+    color: #fff !important;
+    
+    a{
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #fff;
+    }
+}

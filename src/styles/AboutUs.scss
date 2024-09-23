@@ -1,0 +1,104 @@
+@import './global.scss';
+.AboutUs {
+    background-image: url('../assets/images/aboutus.png');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 541px;
+    .blur {
+        // background: rgba(0, 0, 0, 0.4); // Make sure this color has an opacity of less than 1
+        // //backdrop-filter: blur(8px); // This be the blur
+        // height: 541px;
+        // width: 100%;
+         display: grid;
+         align-content: center;
+         justify-items: center;
+         align-items: center;
+        .h1 {
+            color: #ffffff;
+            font-family: "Signika-Regular", Helvetica;
+            font-size: 64px;
+            font-weight: 400;
+            line-height: normal;
+            position: relative;
+            width: fit-content;
+            padding-bottom: 4rem;
+        }
+    
+        .p{
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 400;
+            height: 222px;
+            letter-spacing: 0;
+            line-height: normal;
+            position: relative;
+            text-align: justify;
+            width: 1110px;
+    
+        }
+    }
+
+    
+}
+
+
+.our__doctors {
+    padding: 5% 0px ;
+    .h2{
+        display: flex;
+        color: $primary-color;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+    
+}
+.our_devices {
+
+    padding: 5% 0px ;
+    .h2{
+        display: flex;
+        color: $primary-color;
+        justify-content: center;
+    }
+
+}
+.device-item {
+    padding: 1rem;
+    justify-items: center;
+    align-items: center;
+    &-img {
+        height: 260px;
+        width: 350px;
+        border-radius: 30px;
+    }
+    &-title{
+        color: $primary-color;
+    }
+
+}
+
+.doctor-item{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    &-img{
+        
+        height: 260px;
+        width: 100%;
+        border-radius: 10px;
+    
+    }
+    &-title{   
+        display: flex;
+        color: $primary-color;
+        align-items: center;
+        justify-items: center;
+        justify-content: center ;       ;
+    }
+}

@@ -1,0 +1,54 @@
+@import "../../styles/global.scss";
+
+.doctor-card{
+    padding: 3% 9%;
+    &-img{
+            
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        transform: translateX(20px) 
+        //align-items: right !important;
+    }
+    &-name {
+        a {
+            text-decoration: none !important;
+        }
+    }
+    .card{
+        border-color: #0f97ff;
+        padding: 3rem;
+        border-radius: 10px;
+        .row{
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+        
+        .list-group{
+            &-item {
+                border: 1px solid;
+                border-color: #0f97ff;
+                //border-radius: 30px;
+                //height: 30px;
+                
+                opacity: 0.2;
+                text-align:center;
+                align-items: center;
+                padding: auto;
+                
+    
+            }
+        }
+        .btn {
+            align-items: center;
+        }
+    }
+    &-detail{
+        a {
+            text-decoration: none !important;
+        }
+        
+    }
+    
+
+}

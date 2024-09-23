@@ -1,0 +1,44 @@
+@import "../../styles/global.scss";
+
+.footer {
+    
+    .logo img{
+        width: 20%;
+    }
+    .list-group {
+        &-item{
+            border: none;
+        }
+    }
+   
+    a{
+        size: 30px;
+        text-decoration: none;
+        color: $primary-color;
+            
+    }
+    
+    .form {
+        padding: 5% 0;
+        &-control{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .footer__social {
+        position: relative;
+        
+        &-links {
+            padding-right: 20%;
+            display: flex;
+        }
+        &-link {
+            width: 38px;
+            height: 38px;
+            //border-radius: 50%;
+            display: grid;
+            place-items: center;
+        }
+        
+    }
+}
